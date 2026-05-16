@@ -1,0 +1,48 @@
+{
+  "name": "Harjivan Hospital",
+  "short_name": "Harjivan",
+  "description": "NABH Certified AYUSH Hospital in Gandhinagar - Panchkarma & Ksharsutra treatment since 1994",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0EA5E9",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "scope": "/",
+  "categories": ["health", "medical"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Appointment",
+      "short_name": "Appointment",
+      "description": "Book a consultation with Dr. Vishvamitra Patel",
+      "url": "/contact",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Our Services",
+      "short_name": "Services",
+      "description": "View all treatments offered at Harjivan Hospital",
+      "url": "/services",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
