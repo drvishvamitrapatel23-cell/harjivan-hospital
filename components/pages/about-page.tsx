@@ -59,7 +59,7 @@ const AboutPage = () => {
             About Harjivan Hospital
           </h1>
           <p className="mx-auto mt-5 max-w-3xl text-lg text-muted-foreground">
-            A 30-bedded AYUSH Hospital situated at Sector-26, Gandhinagar,
+            NABH certified AYUSH Hospital situated at Sector-26, Gandhinagar,
             surrounded by 19 lakh population approximately. We are running this
             centre since 1994, dealing with authentic Panchkarma & Ksharsutra
             treatment to serve society.

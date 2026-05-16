@@ -31,7 +31,7 @@ const LandingPage = () => {
               <Image
                 alt="nabh"
                 src="/nabh-logo.jpeg"
-                className="size-5"
+                className="size-8"
                 width="20"
                 height="20"
               />

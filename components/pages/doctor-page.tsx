@@ -1,4 +1,4 @@
-import { SITE, CONSULTANTS, RMOS } from "@/lib/site"
+import { SITE, CONSULTANTS, RMOS, GENERAL_SURGEONS } from "@/lib/site"
 import React from "react"
 import { Button } from "../ui/button"
 import Link from "next/link"
@@ -153,6 +153,40 @@ const DoctorPage = () => {
             ))}
           </div>
         </div>
+
+        {/* General Surgeons - Cards */}
+        <div className="mt-12">
+            <h3 className="flex items-center gap-2 text-lg font-semibold text-foreground">
+              <GraduationCap className="h-5 w-5 text-primary" />
+              General Surgeons
+            </h3>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {GENERAL_SURGEONS.map((r) => (
+                <div
+                  key={r.name}
+                  className="relative overflow-hidden rounded-2xl border border-border bg-card p-6 shadow-card"
+                >
+                  <div className="bg-gradient-primary absolute top-0 left-0 h-1 w-full opacity-60" />
+                  <div className="flex items-start gap-4">
+                    <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-secondary text-primary">
+                      <GraduationCap className="h-5 w-5" />
+                    </span>
+                    <div>
+                      <p className="text-base font-bold text-foreground">
+                        {r.name}
+                      </p>
+                      <p className="mt-1 text-sm text-primary">
+                        {r.qualification}
+                      </p>
+                      <p className="mt-0.5 text-xs text-muted-foreground">
+                        {r.specialization}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
 
         {/* RMOs */}
         <div className="mt-12">

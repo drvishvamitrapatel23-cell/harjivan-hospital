@@ -106,11 +106,11 @@ const GALLERY_IMAGES = [
     alt: "Medical Records Department - Harjivan Hospital",
     caption: "Medical Records Department",
   },
-  {
-    src: "/gallery/fire-layout.jpeg",
-    alt: "Fire Layout - Harjivan Hospital",
-    caption: "Fire Layout",
-  },
+  // {
+  //   src: "/gallery/fire-layout.jpeg",
+  //   alt: "Fire Layout - Harjivan Hospital",
+  //   caption: "Fire Layout",
+  // },
   {
     src: "/gallery/pharmacy.jpeg",
     alt: "Pharmacy - Harjivan Hospital",

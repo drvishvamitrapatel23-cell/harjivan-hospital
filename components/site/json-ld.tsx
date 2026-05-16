@@ -33,7 +33,7 @@ export function HospitalJsonLd() {
         },
         image: `${BASE_URL}/og-image.jpg`,
         description:
-          "Harjivan Hospital is a 30-bedded NABH certified AYUSH hospital in Sector-26, Gandhinagar offering authentic Panchkarma & Ksharsutra treatment since 1994.",
+          "Harjivan Hospital is NABH certified AYUSH hospital in Sector-26, Gandhinagar offering authentic Panchkarma & Ksharsutra treatment since 1994.",
         foundingDate: "1994",
         medicalSpecialty: [
           "Ayurveda",

@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Gallery - Inside Harjivan Hospital, Gandhinagar",
   description:
-    "Explore the facilities, therapy rooms, and treatment areas at Harjivan Hospital, Gandhinagar. A 30-bedded NABH certified AYUSH hospital with modern Panchkarma infrastructure.",
+    "Explore the facilities, therapy rooms, and treatment areas at Harjivan Hospital, Gandhinagar. NABH certified AYUSH hospital with modern Panchkarma infrastructure.",
   keywords: [
     "Harjivan Hospital gallery",
     "Panchkarma therapy room Gandhinagar",

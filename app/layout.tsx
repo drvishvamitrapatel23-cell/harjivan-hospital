@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { Navbar } from "@/components/site/navbar"
 import { Footer } from "@/components/site/footer"
-import { AmbulanceFab } from "@/components/site/ambulance-fab"
+// import { AmbulanceFab } from "@/components/site/ambulance-fab"
 import { EbookFab } from "@/components/site/ebook-fab"
 import { HospitalJsonLd } from "@/components/site/json-ld"
 
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Harjivan Hospital, Gandhinagar",
   },
   description:
-    "Harjivan Hospital is a 30-bedded NABH certified AYUSH hospital in Sector-26, Gandhinagar. Authentic Panchkarma & Ksharsutra treatment since 1994. Piles, Fistula, Fissure treated without admission or surgery. Dr. Vishvamitra Patel.",
+    "Harjivan Hospital is a NABH certified AYUSH hospital in Sector-26, Gandhinagar. Authentic Panchkarma & Ksharsutra treatment since 1994. Piles, Fistula, Fissure treated without admission or surgery. Dr. Vishvamitra Patel.",
   keywords: [
     "Harjivan Hospital",
     "First NABH certified hospital Gandhinagar",
@@ -44,7 +44,6 @@ export const metadata: Metadata = {
     "Ayurveda hospital Gandhinagar",
     "piles treatment Gandhinagar",
     "Kshara Sutra therapy",
-    "30 bed hospital Gandhinagar",
     "Sector 26 Gandhinagar hospital",
   ],
   authors: [{ name: "Dr. Vishvamitra Patel", url: BASE_URL }],
@@ -89,7 +88,7 @@ export const metadata: Metadata = {
     title:
       "Harjivan Hospital - First NABH Certified AYUSH Hospital in Gandhinagar",
     description:
-      "30-bedded NABH certified AYUSH hospital. Authentic Panchkarma & Ksharsutra treatment since 1994. Piles treated without surgery in Gandhinagar.",
+      "NABH certified AYUSH hospital. Authentic Panchkarma & Ksharsutra treatment since 1994. Piles treated without surgery in Gandhinagar.",
     images: [
       {
         url: "/og-image.jpg",
@@ -105,7 +104,7 @@ export const metadata: Metadata = {
     title:
       "Harjivan Hospital - First NABH Certified AYUSH Hospital in Gandhinagar",
     description:
-      "30-bedded NABH certified AYUSH hospital. Panchkarma & Ksharsutra treatment since 1994. Piles without surgery.",
+      "NABH certified AYUSH hospital. Panchkarma & Ksharsutra treatment since 1994. Piles without surgery.",
     images: ["/og-image.jpg"],
     creator: "@harjivanhospital",
     site: "@harjivanhospital",
@@ -148,7 +147,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <EbookFab />
-          <AmbulanceFab />
+          {/* <AmbulanceFab /> */}
         </ThemeProvider>
       </body>
     </html>

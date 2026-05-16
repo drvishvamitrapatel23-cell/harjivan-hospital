@@ -13,7 +13,7 @@ export function Footer() {
         <div className="lg:col-span-2">
           <BrandLogo size="md" />
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
-            A 30-bedded AYUSH Hospital offering authentic Panchkarma &
+           AYUSH Hospital offering authentic Panchkarma &
             Ksharsutra treatment since 1994. Serving Gandhinagar and surrounding
             19 lakh population.
           </p>
@@ -22,9 +22,9 @@ export function Footer() {
               <Image
                 src="/nabh-logo.jpeg"
                 alt="NABH Accreditation Logo"
-                width={32}
-                height={32}
-                className="h-8 w-8 rounded-full object-cover"
+                width={48}
+                height={48}
+                className="size-12 rounded-full object-cover"
               />
               <div className="leading-tight">
                 <p className="text-xs font-semibold text-foreground">
