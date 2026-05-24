@@ -22,9 +22,9 @@ export function Footer() {
               <Image
                 src="/nabh-logo.jpeg"
                 alt="NABH Accreditation Logo"
-                width={32}
-                height={32}
-                className="h-8 w-8 rounded-full object-cover"
+                width={40}
+                height={40}
+                className="h-10 w-10 rounded-full object-cover"
               />
               <div className="leading-tight">
                 <p className="text-xs font-semibold text-foreground">

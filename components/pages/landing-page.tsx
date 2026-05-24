@@ -31,9 +31,9 @@ const LandingPage = () => {
               <Image
                 alt="nabh"
                 src="/nabh-logo.jpeg"
-                className="size-5"
-                width="20"
-                height="20"
+                className="size-7"
+                width="28"
+                height="28"
               />
               NABH certified Hospital
             </span>
@@ -86,10 +86,11 @@ const LandingPage = () => {
           >
             <div className="bg-gradient-primary absolute -inset-4 rounded-[2rem] opacity-20 blur-2xl" />
             <Image
-              src="/gallery/hospital.jpeg"
+              src="/gallery/harjivan-hospital.png"
               alt="Modern clinical environment at Harjivan Hospital combining Ayurveda and modern medicine"
               width={1536}
               height={1024}
+              loading="eager"
               className="shadow-elegant relative w-full rounded-[2rem] object-cover brightness-125"
             />
           </motion.div>

@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { Navbar } from "@/components/site/navbar"
 import { Footer } from "@/components/site/footer"
-import { AmbulanceFab } from "@/components/site/ambulance-fab"
+// import { AmbulanceFab } from "@/components/site/ambulance-fab"
 import { EbookFab } from "@/components/site/ebook-fab"
 import { HospitalJsonLd } from "@/components/site/json-ld"
 
@@ -148,7 +148,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <EbookFab />
-          <AmbulanceFab />
+          {/* <AmbulanceFab /> */}
         </ThemeProvider>
       </body>
     </html>
