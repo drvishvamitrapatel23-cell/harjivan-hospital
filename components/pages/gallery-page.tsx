@@ -7,7 +7,7 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react"
 
 const GALLERY_IMAGES = [
   {
-    src: "/gallery/hospital-outside.jpeg",
+    src: "/gallery/harjivan-hospital.png",
     alt: "Hospital Outside - Harjivan Hospital",
     caption: "Harjivan Hospital",
   },
