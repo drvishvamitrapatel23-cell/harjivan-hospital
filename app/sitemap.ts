@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next"
 import { SERVICES } from "@/lib/services-data"
 
-const BASE_URL = "https://www.harjivanhospital.com"
+const BASE_URL = "https://www.drvishvamitra.com"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

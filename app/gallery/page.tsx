@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "Harjivan Hospital facility",
   ],
   alternates: {
-    canonical: "https://www.harjivanhospital.com/gallery",
+    canonical: "https://www.drvishvamitra.com/gallery",
   },
   openGraph: {
     title: "Gallery | Harjivan Hospital Gandhinagar",
     description:
       "Photos of facilities and treatment areas at Harjivan Hospital, Gandhinagar.",
-    url: "https://www.harjivanhospital.com/gallery",
+    url: "https://www.drvishvamitra.com/gallery",
     images: [
       {
         url: "/og-image.jpg",

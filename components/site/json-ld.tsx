@@ -13,7 +13,7 @@
  *   <BreadcrumbJsonLd items={[...]} />  - in each page
  */
 
-const BASE_URL = "https://www.harjivanhospital.com"
+const BASE_URL = "https://www.drvishvamitra.com"
 
 export function HospitalJsonLd() {
   const schema = {

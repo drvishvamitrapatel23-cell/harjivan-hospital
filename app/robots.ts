@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/", "/cdn-cgi/"],
       },
     ],
-    sitemap: "https://www.harjivanhospital.com/sitemap.xml",
-    host: "https://www.harjivanhospital.com",
+    sitemap: "https://www.drvishvamitra.com/sitemap.xml",
+    host: "https://www.drvishvamitra.com",
   }
 }

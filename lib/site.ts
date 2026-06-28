@@ -9,7 +9,7 @@ export const SITE = {
   ambulance: "+91 96240 44999",
   ambulanceHref: "tel:+919624044999",
   whatsapp: "919624044999",
-  email: "contact@harjivanhospital.com",
+  email: "drvishvamitrapatel23@gmail.com",
   address:
     "3rd Floor, Sharan Business, Nr. D-Mart, Sector-26, Gandhinagar, Gujarat 382028",
   city: "Gandhinagar",
@@ -17,7 +17,7 @@ export const SITE = {
   pinCode: "382028",
   landmark: "Sector 26, Gandhinagar",
   hours: "10AM to 2PM · All Days",
-  url: "https://harjivanhospital.com",
+  url: "https://drvishvamitra.com",
   since: 1994,
   beds: 15,
   operationalBeds: 15,
