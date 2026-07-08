@@ -42,6 +42,43 @@ const nextConfig = {
       },
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "drvishvamitra.com",
+          },
+        ],
+        destination: "https://www.harjivanhospital.com/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "www.drvishvamitra.com",
+          },
+        ],
+        destination: "https://www.harjivanhospital.com/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "harjivanhospital.com",
+          },
+        ],
+        destination: "https://www.harjivanhospital.com/:path*",
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default nextConfig

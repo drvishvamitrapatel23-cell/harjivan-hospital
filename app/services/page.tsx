@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     "AYUSH hospital treatments",
   ],
   alternates: {
-    canonical: "https://www.drvishvamitra.com/services",
+    canonical: "https://www.harjivanhospital.com/services",
   },
   openGraph: {
     title:
       "Treatments | Piles, Fissure, Fistula & Kshara Sutra - Harjivan Hospital",
     description:
       "Day-care Ayurvedic treatments for piles, fissure, fistula & Kshara Sutra. No major surgery. Gandhinagar.",
-    url: "https://www.drvishvamitra.com/services",
+    url: "https://www.harjivanhospital.com/services",
     images: [
       {
         url: "/og-image.jpg",

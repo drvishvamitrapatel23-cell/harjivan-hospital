@@ -20,7 +20,7 @@ const algeriaFonts = localFont({
   src: "algerian-regular.ttf",
   variable: "--font-algerian",
 })
-const BASE_URL = "https://www.drvishvamitra.com"
+const BASE_URL = "https://www.harjivanhospital.com"
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

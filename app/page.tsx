@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     "30 bed hospital Gandhinagar",
   ],
   alternates: {
-    canonical: "https://www.drvishvamitra.com",
+    canonical: "https://www.harjivanhospital.com",
   },
   openGraph: {
     title:
       "Harjivan Hospital - Piles Without Surgery | NABH Certified, Gandhinagar",
     description:
       "NABH certified AYUSH hospital since 1994. Expert piles, fistula & fissure treatment without surgery. Authentic Panchkarma & Ksharsutra.",
-    url: "https://www.drvishvamitra.com",
+    url: "https://www.harjivanhospital.com",
     images: [
       {
         url: "/og-image.jpg",
@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       <BreadcrumbJsonLd
-        items={[{ name: "Home", url: "https://www.drvishvamitra.com" }]}
+        items={[{ name: "Home", url: "https://www.harjivanhospital.com" }]}
       />
       <FaqJsonLd />
       <LandingPage />

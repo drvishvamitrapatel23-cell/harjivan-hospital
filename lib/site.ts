@@ -17,7 +17,7 @@ export const SITE = {
   pinCode: "382028",
   landmark: "Sector 26, Gandhinagar",
   hours: "10AM to 2PM · All Days",
-  url: "https://drvishvamitra.com",
+  url: "https://www.harjivanhospital.com",
   since: 1994,
   beds: 15,
   operationalBeds: 15,

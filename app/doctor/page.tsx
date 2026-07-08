@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     "GBI-11609 registration",
   ],
   alternates: {
-    canonical: "https://www.drvishvamitra.com/doctor",
+    canonical: "https://www.harjivanhospital.com/doctor",
   },
   openGraph: {
     title: "Dr. Vishvamitra Patel | Ayurvedic Specialist at Harjivan Hospital",
     description:
       "B.A.M.S, D.A.K, P.G.D.I.P specialist. 30+ years of Panchkarma & Ksharsutra treatment. Founder of Harjivan Hospital, Gandhinagar.",
-    url: "https://www.drvishvamitra.com/doctor",
+    url: "https://www.harjivanhospital.com/doctor",
     images: [
       {
         url: "/doctor.jpeg",
@@ -47,8 +47,8 @@ export default function Doctor() {
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", url: "https://www.drvishvamitra.com" },
-          { name: "Doctor", url: "https://www.drvishvamitra.com/doctor" },
+          { name: "Home", url: "https://www.harjivanhospital.com" },
+          { name: "Doctor", url: "https://www.harjivanhospital.com/doctor" },
         ]}
       />
       <PhysicianJsonLd />

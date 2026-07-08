@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     "Sector 26 Gandhinagar",
   ],
   alternates: {
-    canonical: "https://www.drvishvamitra.com/about",
+    canonical: "https://www.harjivanhospital.com/about",
   },
   openGraph: {
     title:
       "About Harjivan Hospital | First NABH Certified, Gandhinagar since 1994",
     description:
       "30-bedded NABH certified AYUSH hospital in Gandhinagar run by Dr. Vishvamitra Patel since 1994. Authentic Panchkarma & Ksharsutra treatment.",
-    url: "https://www.drvishvamitra.com/about",
+    url: "https://www.harjivanhospital.com/about",
     images: [
       {
         url: "/og-image.jpg",

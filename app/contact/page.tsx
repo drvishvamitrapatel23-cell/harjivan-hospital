@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "Dr Vishvamitra Patel appointment",
   ],
   alternates: {
-    canonical: "https://www.drvishvamitra.com/contact",
+    canonical: "https://www.harjivanhospital.com/contact",
   },
   openGraph: {
     title: "Contact Harjivan Hospital | Book Appointment in Gandhinagar",
     description:
       "Book a consultation at Harjivan Hospital, Sector-26 Gandhinagar. 10AM to 2PM. Piles, fistula, fissure & Panchkarma treatment.",
-    url: "https://www.drvishvamitra.com/contact",
+    url: "https://www.harjivanhospital.com/contact",
     images: [
       {
         url: "/og-image.jpg",

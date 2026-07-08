@@ -4,7 +4,7 @@ import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { ServiceJsonLd, BreadcrumbJsonLd } from "@/components/site/json-ld"
 
-const BASE_URL = "https://www.drvishvamitra.com"
+const BASE_URL = "https://www.harjivanhospital.com"
 
 // Maps slugs to extra keywords for richer SEO
 const SERVICE_KEYWORDS: Record<string, string[]> = {
@@ -122,7 +122,6 @@ const SERVICE_KEYWORDS: Record<string, string[]> = {
   ],
 }
 
-
 export async function generateMetadata({
   params,
 }: {
@@ -185,21 +184,21 @@ export default async function ServiceDetail({
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", url: "https://www.drvishvamitra.com" },
+          { name: "Home", url: "https://www.harjivanhospital.com" },
           {
             name: "Services",
-            url: "https://www.drvishvamitra.com/services",
+            url: "https://www.harjivanhospital.com/services",
           },
           {
             name: service.title,
-            url: `https://www.drvishvamitra.com/services/${slug}`,
+            url: `https://www.harjivanhospital.com/services/${slug}`,
           },
         ]}
       />
       <ServiceJsonLd
         name={service.title}
         description={service.desc}
-        url={`https://www.drvishvamitra.com/services/${slug}`}
+        url={`https://www.harjivanhospital.com/services/${slug}`}
       />
       <ServiceDetailPage slug={slug} />
     </>

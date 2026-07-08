@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     "Harjivan Hospital services",
   ],
   alternates: {
-    canonical: "https://www.drvishvamitra.com/scope-of-services",
+    canonical: "https://www.harjivanhospital.com/scope-of-services",
   },
   openGraph: {
     title: "Scope of Services | 60+ Ayurvedic Therapies at Harjivan Hospital",
     description:
       "Complete list of Ayurvedic services at Harjivan Hospital: Panchkarma, Ksharsutra, Shirodhara, Physiotherapy, Yoga & more. NABH certified.",
-    url: "https://www.drvishvamitra.com/scope-of-services",
+    url: "https://www.harjivanhospital.com/scope-of-services",
     images: [
       {
         url: "/og-image.jpg",
