@@ -50,8 +50,10 @@ export function Navbar() {
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </nav>
+
+      {/* Mobile menu — absolutely positioned so it overlays content, not pushes it */}
       {open && (
-        <div className="border-t border-border bg-background md:hidden">
+        <div className="absolute left-0 top-full z-50 w-full border-t border-border bg-background shadow-lg md:hidden">
           <div className="flex flex-col gap-1 p-4">
             {LINKS.map((l) => (
               <Link

@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next"
 import { SERVICES } from "@/lib/services-data"
-
+export const dynamic = "force-static";
 const BASE_URL = "https://www.harjivanhospital.com"
 
 export default function sitemap(): MetadataRoute.Sitemap {

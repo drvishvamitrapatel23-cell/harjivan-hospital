@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "servelocal": "npx serve@latest out"
   },
   "dependencies": {
     "@next/third-parties": "^16.2.6",
